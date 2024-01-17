@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh - Developer Portfoilo</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 71);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(126, 126, 218);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.2rem;
+        }
+        .leftsection .button{
+            padding: 10px;
+        }
+        .leftsection .btn{
+            padding: 5px;
+            background-color: blueviolet;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font: size 20px;
+            cursor: pointer;
+           
+        }
+
+        .rightsection img {
+            width: 70%;
+            margin: 50px 0;
+        }
+
+        .text-purple {
+            color: rgb(155, 84, 221);
+        }
+
+        .text-gray {
+            color: gray;
+            font-size: 15px;
+        }
+
+        #element {
+            color: rgb(155, 84, 221);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+            margin: 20px 0;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 80px 60px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 80px;
+            background-color: white;
+            width: 1px;
+            margin: 0 90px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(120, 86, 153);
+            height: 2px;
+            margin: 30px 50px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            width:150px;
+            font-size:10px;
+        }
+
+        .image-Developer {
+            width: 23px;
+            position:relative;
+            top: -30px;
+            left:-10px;
+        }
+        footer{
+            background-color: rgb(38, 36, 70);
+            
+        }
+        .footer{
+            display:flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+            padding: 20px 0;
+        }
+
+        .footer ul{
+            list-style: none;
+
+        }
+        .footer >div{
+            width:23px;
+        }
+       
+        footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sourabh's Portfoilo</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Services</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="text-purple">Sourabh</span>
+
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="smps.png" alt="developer image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <div class="text-gray">What I have done so Far</div>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-Developer" src="web developer.png" alt="Web Developer">
+                    <div class="vertical-title">
+                        Web Developer <br>(2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi quam quod veritatis,
+                        perferendis
+                        doloribus optio pariatur ab facere, repellat, hic consequatur tenetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-Developer" src="html.png" alt="html developer">
+                    <div class="vertical-title">
+                        html Developer<br> (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi quam quod veritatis, perferendis
+                        doloribus optio pariatur ab facere, repellat, hic consequatur tenetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-Developer" src="youtube.png" alt="youtube">
+                    <div class="vertical-title">
+                        Youtube <br>(2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi quam quod veritatis, perferendis
+                        doloribus optio pariatur ab facere, repellat, hic consequatur tenetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-Developer" src="instagram.png" alt="instagram">
+                    <div class="vertical-title">
+                        Instagram <br>(2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi quam quod veritatis, perferendis
+                        doloribus optio pariatur ab facere, repellat, hic consequatur tenetur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-Developer" src="twitter.png" alt="Twitter">
+                    <div class="vertical-title">
+                        Twitter <br>(2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi quam quod veritatis, perferendis
+                        doloribus optio pariatur ab facere, repellat, hic consequatur tenetur!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first"><h3>Sourabh's Developer Portfoilo</h3></div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+           Copyright &#169; sourabhsportfolio.com | All rights are reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer<i>', '<i>Web Designer<i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
